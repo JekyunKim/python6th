@@ -1,13 +1,29 @@
-h1 {
-    color: red;
-    text-align: center;
+body {
+    background: #f4f4f4;
+    font-family: arial, sans-serif;
+    line-height: 1.5em;
 }
 
-body {
-    color: red;
-    height: 70vh;
-    background-color: #000;
-    background-image: url('background.jpg');
-    background-position: center center;
+/* # 뒤에 html id를 셀렉터로 사용? */
+#container {
+    border: 1px #cccccc solid;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    width: 800px;
+    /*height: 3000px; */
+    margin: 30px auto; /* auto옵션 자동으로 여백을 만듦 */
+    /*background: url('background.jpg'); */
+    overflow: auto;
+}
 
+/* .뒤에 html class 사용? */
+.highlight {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.left-side {
+    float: left;
+    width: 50%;
 }
