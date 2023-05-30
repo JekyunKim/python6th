@@ -1,28 +1,28 @@
+var base = parseFloat(prompt("밑변 입력: "));
+var height = parseFloat(prompt("높이 입력: "));
 
-var num1 = parseInt(prompt("Enter first number: "));
-var num2 = parseInt(prompt("Enter second number: "));
-var lineBreak = "<br/>";
+var area = base * height * 0.5 ;
 
-var result = num1 + num2;
-document.write("the sum is : " + result + lineBreak);
+document.write("삼각형의 넓이 : " + area);
 
-result = num1 - num2;
-document.write("the sub is : " + result + lineBreak);
-
-result = num1 * num2;
-document.write("the multiplication is : " + result + lineBreak);
-
-result = num1 / num2;
-document.write("The division is : " + result + lineBreak);
-
-result = num1 % num2;
-document.write("The remainder is : " + result + lineBreak);
-
-
-
-
-
-
+//var num1 = parseInt(prompt("Enter first number: "));
+//var num2 = parseInt(prompt("Enter second number: "));
+//var lineBreak = "<br/>";
+//
+//var result = num1 + num2;
+//document.write("the sum is : " + result + lineBreak);
+//
+//result = num1 - num2;
+//document.write("the sub is : " + result + lineBreak);
+//
+//result = num1 * num2;
+//document.write("the multiplication is : " + result + lineBreak);
+//
+//result = num1 / num2;
+//document.write("The division is : " + result + lineBreak);
+//
+//result = num1 % num2;
+//document.write("The remainder is : " + result + lineBreak);
 
 //var num = "20"
 //num = num.toString();
