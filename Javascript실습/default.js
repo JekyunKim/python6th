@@ -1,29 +1,29 @@
-// 날짜 (외부 라이브러리를 사용하는 예제)
-var date = new Date();
-console.log(date);
-
-var year = date.getFullYear();
-console.log(year);
-
-// 월 정보 얻기
-var month = date.getMonth();
-console.log(month);
-
-// 날짜 정보 얻기
-var currentDate = date.getDate();
-console.log(currentDate);
-
-// 요일 정보 얻기
-var currentDay = date.getDay();
-console.log(currentDay);
-
-// 시간 정보 얻기
-var currentHour = date.getHours();
-console.log(currentHour);
-
-// 분 정보
-var currentMinutes = date.getMinutes();
-console.log(currentMinutes);
+//// 날짜 (외부 라이브러리를 사용하는 예제)
+//var date = new Date();
+//console.log(date);
+//
+//var year = date.getFullYear();
+//console.log(year);
+//
+//// 월 정보 얻기
+//var month = date.getMonth();
+//console.log(month);
+//
+//// 날짜 정보 얻기
+//var currentDate = date.getDate();
+//console.log(currentDate);
+//
+//// 요일 정보 얻기
+//var currentDay = date.getDay();
+//console.log(currentDay);
+//
+//// 시간 정보 얻기
+//var currentHour = date.getHours();
+//console.log(currentHour);
+//
+//// 분 정보
+//var currentMinutes = date.getMinutes();
+//console.log(currentMinutes);
 
 //// 배열 array
 //var names = new Array(20);
