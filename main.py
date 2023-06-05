@@ -142,10 +142,13 @@ print(value, type(value))
 int_value = int(value)
 print(int_value, type(int_value))
 
-
-
-
-
+q = 20
+u = '10'
+print(type(u))
+r = q + int(u)
+print(r, type(r))
+r = str(q) + u
+print(r, type(r))
 
 
 
