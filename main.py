@@ -157,31 +157,39 @@
 # print(n5, type(n5))
 # print(vn5, type(vn5))
 
+# 출력 함수
 # print("1")
 # print("2", end='')
 # print("3")
 # print("4")
 
-data = [10, 20, -50, 21.3, 'Likelion']
-print(data)
+# data = [10, 20, -50, 21.3, 'Likelion']
+# print(data)
+#
+# print("Like", "Share", "Subscribe", sep='')
+# print("Like", "Share", "Subscribe", sep='***')
+#
+# print("Like", "Share", "Subscribe", sep='***', end='\t')
+# print("Like", "Share", "Subscribe", sep='***', end='\n')
+#
+# m = 40
+# print('value: ', m)
+#
+# name = '김제균'
+# age = 27
+# print('My name is', name, 'and My age is', age)
 
-print("Like", "Share", "Subscribe", sep='')
-print("Like", "Share", "Subscribe", sep='***')
-
-print("Like", "Share", "Subscribe", sep='***', end='\t')
-print("Like", "Share", "Subscribe", sep='***', end='\n')
-
-m = 40
-print('value: ', m)
-
-name = '김제균'
-age = 27
-print('My name is', name, 'and My age is', age)
-
-
-
-
-
+# 입력 함수
+name = input()
+print(name)
+name = input("Your Name: ")
+mobile = input("Enter Your Mobile Number: ")
+mb = int(mobile)
+print(mb, type(mb))
+price = float(input("Total Price:"))
+print(price)
+print("He said, \"Hello World\"")
+print('It\'s beautiful day')
 
 
 
