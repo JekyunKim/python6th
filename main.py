@@ -133,7 +133,7 @@ print(type(p))
 
 q = 20
 u = '10'
-r = u + q
+r = u + q # 오류
 print(r)
 print(type(r))
 
