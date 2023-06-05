@@ -152,8 +152,9 @@
 # vn1 = float(n1)
 # print(vn1, type(vn1))
 
-n5 = "멋쟁이 사자"
-vn5 = tuple(n5)
+n5 = ('kim', 'bae', 'park', 'lee')
+vn5 = list(n5)
+print(n5, type(n5))
 print(vn5, type(vn5))
 
 
