@@ -148,11 +148,13 @@
 # print(r, type(r))
 # r = str(q) + u
 # print(r, type(r))
-n1 = 10
-vn1 = float(n1)
-print(vn1, type(vn1))
+# n1 = 10
+# vn1 = float(n1)
+# print(vn1, type(vn1))
 
-
+n5 = "멋쟁이 사자"
+vn5 = tuple(n5)
+print(vn5, type(vn5))
 
 
 
