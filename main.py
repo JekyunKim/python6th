@@ -92,16 +92,24 @@
 # print('a << 2: ', a << 2)
 # print('a >> 2: ', a >> 2)
 
-# 멤버 in 연산자
-st1 = "Welcome to 멋쟁이 사자"
-print("to" not in st1)
+# # 멤버 in 연산자
+# st1 = "Welcome to 멋쟁이 사자"
+# print("to" not in st1)
+#
+# st2 = "Welcom top 멋쟁이 사자"
+# print("to" not in st2)
+#
+# st3 = "Welcome to 멋쟁이 사자"
+# print("subs" not in st3)
 
-st2 = "Welcom top 멋쟁이 사자"
-print("to" not in st2)
+# is 연산자
+a = 10
+b = 10
+print(a is not b)
 
-st3 = "Welcome to 멋쟁이 사자"
-print("subs" not in st3)
-
+a = 10
+b = '10'
+print(a is not b)
 
 
 
