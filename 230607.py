@@ -1,4 +1,5 @@
-s = "1234"
+s = " Hello World "
+
 print(s.upper())
 print(s.lower())
 print(s.swapcase())
@@ -7,6 +8,7 @@ print(s.isupper())
 print(s.islower())
 print(s.istitle())
 print(s.isdigit())
-print(s.isalp)
-
-
+print(s.isalpha())
+print(s.lstrip())
+print(s.rstrip())
+print(s.strip())
