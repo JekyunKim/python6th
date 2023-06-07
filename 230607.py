@@ -1,28 +1,39 @@
-print("parameter 없는 함수")
+def add():
+    x = 10
+    y = 20
+    c = x + y
+    return c
 
-def disp():
-    name = "멋쟁이 사자"
-    print("Welcome to", name)
 
-print("함수 실행")
-disp()
+sum1 = add()
+print(sum1)
 
-def add(y):
+def add2():
+    x = 10
+    y = 20
+    return x + y
+
+
+sum2 = add2()
+print(sum2)
+
+def add3(y):
+    x = 10
+    return x + y
+
+
+sum3 = add3(20)
+print(sum3)
+
+def add4(y):
     x = 10
     c = x + y
-    print(c)
-
-add(20)
-
-def add(y):
-    x = 10.2334
-    print(x + y)
-    print(f"Formatted Output{x + y:5.2f}")
-    print(f"Formatted Output{x + y:f}")
-    print(f"Formatted Output{x + y:.2f}")
-    print(f"Formatted Output{x + y:10f}")
-
-add(20)
+    d = y - x
+    return c, d, 50
 
 
-
+sum4, sub1, a = add4(20)
+print(sum4)
+print(sub1)
+print(a)
+print(type(add4(20)))
