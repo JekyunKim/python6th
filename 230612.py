@@ -1,5 +1,7 @@
-from MyApp.Handlers.text_handler import handle_text
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Error: Division by zero.")
 
-input_txt = "python package practice"
-handle_text(input_txt)
+print("Program continues.")
 
