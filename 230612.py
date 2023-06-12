@@ -1,21 +1,23 @@
-# 부모 클래스
-class Vehicle:
-    def __init__(self, make, model, year):
-        self.make = make
-        self.model = model
-        self.year = year
+class Engine:
+    def start(self):
+        return "Engine started"
 
-    def start_engine(self):
-        return "The engine is running!"
+    def stop(self):
+        return "Engine stopped"
 
 
-# 자식 클래스
-class Car(Vehicle):
-    def start_engine(self):
-        return super().start_engine() + " It's a car engine."
+class Wheels:
+    def rotate(self):
+        return "Wheels are rotating"
+
+
+# 다중 상속
+class Car(Engine, Wheels):
+    pass
 
 
 # 인스턴스 생성
-my_car = Car("Toyota", "Corolla", 2020)
-# 메소드 호출
-print(my_car.start_engine())
+my_car = Car()
+# 부모 클래스의 메소드 사용
+print(my_car.start())  # 출력: "Engine started"
+print(my_car.rotate())  # 출력: "Wheels are rotating"
