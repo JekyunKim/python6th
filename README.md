@@ -16,3 +16,4 @@
 
 - <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=Celery&logoColor=white">
 <img src="https://img.shields.io/badge/Celery-9D1620?style=for-the-badge&logo=Celery&logoColor=white">
+![JSON Web Tokens](https://img.shields.io/badge/JSON%20Web%20Tokens-000000?style=for-the-badge&logo=JSON%20Web%20Tokens&logoColor=white)
