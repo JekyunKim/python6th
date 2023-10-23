@@ -15,3 +15,4 @@
 - 파이썬 기초 실습 진행
 
 - <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=Celery&logoColor=white">
+<img src="https://img.shields.io/badge/Celery-9D1620?style=for-the-badge&logo=Celery&logoColor=white">
